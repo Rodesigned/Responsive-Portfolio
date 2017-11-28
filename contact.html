@@ -1,0 +1,54 @@
+<!Doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Responsive-Portfolio</title>
+<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+<div class="wrapper">
+  <header>
+    <h1>Rosita Cabrera</h1>
+    <nav>
+      <ul>
+        <li><a class="active" href="contact.html">Contact</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="index.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="container">
+    <section id="main-contact">
+      <h2>Contact</h2>
+      <hr width="84%">
+      <div class="contact_me">
+        <form action="">
+          <label for="name"><span>Name</span></label>
+          <input type="text" id="name" name="Name" placeholder="John Smith">
+          <label for="email">Email</label>
+          <input type="text" id="email" name="Email" placeholder="example@gmail.com">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="" style="height:200px"></textarea>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </section>
+    <aside>
+      <h2 class="little-box">Connect with Me</h2>
+      <hr align="center" width="75%">
+      <br >
+     <div id="boxes">
+        <div class="tiny_icons"><a href="https://github.com/" target="_blank"><img id="box1" src="assets/images/git.png" alt="git-icon" height="50" width="50" /></a></div>
+        <div class="tiny_icons"><a href="https://www.linkedin.com/" target="_blank"><img id="box2" src="assets/images/linkedin.png" alt="linkedin-icon" height="50" width="50" /></a></div>
+        <div class="tiny_icons"><a href="https://stackoverflow.com/" target="_blank"><img id="box3" src="assets/images/stacks.png" alt="stacks-icon" height="50" width="50" /></a></div>
+      </div>
+    </aside>
+  </div>
+  <footer> <img id="footer_sticky" src="assets/images/stickyfooter.jpg" alt="sticky image">
+    <p>@Copyright Rosita Cabrera</p>
+  </footer>
+</div>
+</body>
+</html>
