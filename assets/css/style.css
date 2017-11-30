@@ -15,7 +15,6 @@ body {
 	background-image: url("../images/vintage_speckles.png")
 }
 
-
 h1, h2 {
 	
 	font-family: "Georgia",Times New Roman,Times,serif;
@@ -181,23 +180,28 @@ h2.little-box {
 	padding-left: 30px;
 }
 
+
+.tiny_icons {	
+	margin-left: 10px;
+}
+
 #boxes {
-   	padding: 0px 0px 0px 40px;
-  	margin: 0px 0px 800px 0px;
-  	width: 225px;
-	height: 70px;
-}
-    
-
-tiny_icons {	
-	float: left;
-	z-index: 1000;
-	padding: 20px;
+   margin: 0 auto;
+	width: 180px;
 }
 
-#box1, #box2, #box3 {
+#box1{
 	float: left; 
 }
+
+#box2 {
+	float: left; 
+}
+
+#box3 {
+	float: right; 
+}
+
 
 /*contact form*/
 
@@ -242,7 +246,6 @@ label {
     padding: 20px;
 	padding-bottom: 100px;
 }
-
 
 #footer_sticky {
 	position: fixed;
@@ -319,10 +322,6 @@ aside {
 	background-color: #FFFFFF;
 }
 	
-#boxes {
-	margin: 0 auto;
-}
-	
 .container {
     width: 100%;
     margin: 0 auto;
@@ -383,8 +382,8 @@ footer p {
 
 }
 
-@media all and (max-width : 768px) {
 
+@media all and (max-width : 768px) {
 	
 nav {
 	width: 100%;
@@ -620,10 +619,6 @@ aside {
 	background-color: #FFFFFF;
 }
 	
-#boxes { margin: 0;
-	     padding: 0 0 0 25px;
-}
-
 div .container {
 	margin: 0 auto;
     width: 100%;
