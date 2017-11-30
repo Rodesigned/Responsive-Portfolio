@@ -48,6 +48,7 @@ p {
 	padding: 20px 10px 0px 20px;
 }
 
+
 header h1 {
 	position: absolute;
 	width: 250px;
@@ -130,7 +131,6 @@ div.gallery {
     width: 200px;
 }
 
-
 div.gallery img {
 	position: relative;
     width: 100%;
@@ -187,7 +187,7 @@ h2.little-box {
 
 #boxes {
    margin: 0 auto;
-	width: 180px;
+   width: 180px;
 }
 
 #box1{
@@ -297,7 +297,6 @@ ul {
 	color: #595656;
     background-color: #FFFFFF;
 }
-
 
 header h1 {
 	position: absolute;
@@ -414,9 +413,7 @@ li a {
     color: #504C4C;
     padding: 16px 16px 16px 16px;
     text-decoration: none;
-}
-
-	
+}	
 
 header h1 {
 	position: absolute;
@@ -427,12 +424,16 @@ header h1 {
 }
 	
 h2 {
-	margin: 0 auto;
-	text-align: center;
-}	
+	padding-left: 30px;
+	font-size: 21px;
+	padding-top: 20px;
+	color: #4aaaa5;
+}
 	
-
-	
+hr {
+	width: 90%;
+}
+		
 #bio-image {
 	float: left;
     margin-right: 20px;
@@ -456,7 +457,28 @@ aside {
 	height: 200px;
 	background-color: #FFFFFF;
 }
+	
+.tiny_icons {	
+	margin-left: 10px;
+}
 
+#boxes {
+   margin-left: 20px;
+   width: 180px;
+}
+
+#box1{
+	float: left; 
+}
+
+#box2 {
+	float: left; 
+}
+
+#box3 {
+	float: left; 
+}
+	
 .container {
 	margin: 0 auto;
     width: 100%;
@@ -561,6 +583,10 @@ nav {
 	display: inline;
     text-decoration: none;
 }
+	
+ul li {
+	margin-left: 15px;
+}	
 
 li a {
 	width: 100%;
@@ -569,11 +595,7 @@ li a {
     margin: 0 80px 0 20px;
 	overflow: hidden;
 }
-	
-ul li {
-		margin-left: 15px;
-	}
-	
+		
 header h1 {
 	margin: 0;
 	position: relative;
@@ -590,12 +612,11 @@ h2 {
 	padding-top: 15px;
 }
 	
-	
  #main-bio {
 	margin-top: 30px;
 	position: relative;
 	width: 100%;
-	padding: 0 60px 0 30px;
+	padding: 0 55px 0 30px;
 }
 
 #bio-image { 
@@ -603,10 +624,9 @@ h2 {
 	display: block;
 }
 	
-	hr {
-		width: 80%;
-		margin: 15px 40px 0 60px;
-	}
+hr {
+	width: 90%;
+}
 	
 aside {
 
@@ -618,12 +638,28 @@ aside {
 	height: 200px;
 	background-color: #FFFFFF;
 }
+
+#boxes {
+   margin-left: 20px;
+   width: 180px;
+}
+
+#box1{
+	float: left; 
+}
+		
+#box2 {
+	float: left; 
+}
+
+#box3 {
+	float: left; 
+}	
 	
 div .container {
 	margin: 0 auto;
     width: 100%;
 	padding: 0;
-	
 }
 	
 .contact_me {
@@ -636,8 +672,7 @@ form{
 	padding-left: 30px;	
 	padding-right: 30px;
 }
-		
-		
+				
 #main-contact {
 	margin: 0;
 	position: relative;
@@ -652,6 +687,7 @@ form{
 	position: relative;
 	width: 100%;
 	padding: 0 25px 0 25px;
+	margin-top: 25px;
 }
 
 img #gallery_wrap {
@@ -711,10 +747,6 @@ footer p {
 	
 	
 }
-
-
-
-
 
 
 
